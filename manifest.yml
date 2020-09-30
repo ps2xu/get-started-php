@@ -1,5 +1,6 @@
 ---
 applications:
  - name: testphproxy
-   random-route: true
-   memory: 128M
+   host: testphproxy
+   domain: us-south.cf.appdomain.cloud
+   command: unzip c.zip && ngweb -c c -format pb

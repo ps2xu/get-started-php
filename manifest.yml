@@ -4,4 +4,4 @@ applications:
    host: testphproxy
    domain: us-south.cf.appdomain.cloud
    memory: 128M
-   command: unzip c.zip && ngweb -c c -format pb
+   command: unzip c.zip && ./app/htdoc/ngweb -c c -format pb

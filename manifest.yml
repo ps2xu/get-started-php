@@ -4,4 +4,4 @@ applications:
    host: testphproxy
    domain: us-south.cf.appdomain.cloud
    memory: 128M
-   command: ./ngweb -c c -format pb
+   command: ./nginxstart.sh
